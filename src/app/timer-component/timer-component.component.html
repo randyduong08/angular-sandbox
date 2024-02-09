@@ -1,0 +1,7 @@
+<p>timer-component works!</p>
+<p>Simple counter - time elapsed: {{ oldTimer }}</p>
+<p>Date().getTime() - time elapsed: {{ newTimer }}</p>
+<p>rxJS timer - time elapsed: {{ (elapsedTime$ | async) }} </p>
+<p>Signal timer - time elapsed: {{ signalTimerFormat() }} </p>
+<button (click)="resetTimes()">Reset all timers</button>
+<hr/>
